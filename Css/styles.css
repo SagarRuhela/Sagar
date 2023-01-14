@@ -1,10 +1,19 @@
 
-.japnese:hover+.hide{
-    font-family: 'Noto Serif JP', Katakana;
-    display: inline;
-    position: relative;
-    right: 80px;
+.japnese .hide{
+   visibility: hidden;
+   width: 120px;
+   background-color: #EAF6F6;
+   color: #66BFBF;
+   text-align: center;
+   border-radius: 100%;
+   position: absolute;
+   right: 0;
+  z-index: 1;
 }
+.japnese:hover .hide{
+    visibility: visible;
+}
+
 body{
  
 text-align: center;
